@@ -1,0 +1,62 @@
+body{
+  background-image: url("images/bambi.png");
+  background-attachment: fixed;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#navContainer{
+  height: 10%;
+  background-color: rgba(255,255,255, 0.3);
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 10%;
+}
+
+ul{
+  list-style: none;
+  display: inline;
+}
+
+li{
+  display: inline-block;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+}
+
+a{
+  color: black;
+}
+
+li:hover{
+  color: black;
+  font-size: 1.3em;
+  font-weight:bold;
+}
+
+#mainContainer{
+  background-color: rgba(255,255,255, 0.6);
+  width: 60%;
+  margin-bottom: 10%;
+
+}
+
+#titleContainer{
+  text-align: center;
+}
+
+#learnMoreContainer{
+  margin-bottom: 5%;
+
+}
+
+#footerContainer{
+  height: 20%;
+  background-color: rgba(255,255,255, 0.3);
+  margin-top: 10%;
+  width: 100%;
+
+}
